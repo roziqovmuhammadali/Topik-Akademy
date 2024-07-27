@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .hero {
+  background-image: url("https://optim.tildacdn.pub/tild6130-3963-4033-b434-333530643238/-/format/webp/mainimg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
