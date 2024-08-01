@@ -1,6 +1,7 @@
 import Serticate from "./components/certificat/Serticate";
 import Gks from "./components/gks/GKS";
 import VideoPlayer from "./components/gksVideo/VideoPlayer";
+import Graduates from "./components/graduates/Graduates";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Topik from "./components/topik/Topik";
@@ -14,6 +15,7 @@ export default function App() {
       <Serticate />
       <Gks />
       <VideoPlayer />
+      <Graduates />
     </div>
   );
 }

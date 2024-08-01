@@ -11,6 +11,10 @@ export default {
         xl: "1024px", // Juda katta ekran
         "2xl": "1280px", // 2x katta ekran
         "3xl": "1440px" // 3x katta ekran
+      },
+      boxShadow: {
+        "right-xl":
+          "15px 0px 15px 0px rgba(0, 0, 0, 0.1), 4px 0px 6px -2px rgba(0, 0, 0, 0.05)"
       }
     }
   },
