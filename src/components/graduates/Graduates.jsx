@@ -25,7 +25,7 @@ const Graduates = () => {
             </button>
           </div>
         </div>
-        <div className="w-[65%]">
+        <div className="w-[65%] xs:hidden lg:flex">
           <Leaftcarusel />
         </div>
       </div>
