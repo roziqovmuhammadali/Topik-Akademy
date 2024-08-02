@@ -10,7 +10,7 @@ const Graduates = () => {
         </h1>
       </div>
       <div className="flex items-center justify-center">
-        <div className="w-[35%] space-y-12  bg-white rounded-md shadow-right-xl">
+        <div className="w-[35%] space-y-12  bg-white rounded-md shadow-right-3xl">
           <h2 className="text-[22px] text-[#000000]">
             <span className="text-[#73C0BD]">TOPIK academy consulting</span>{" "}
             academy consulting jamoasi sizga universitet tanlash, visa olish va
@@ -21,7 +21,7 @@ const Graduates = () => {
               Ko’proq ma’lumot olish uchun bepul konsultatsiyaga yoziling!
             </p>
             <button className="w-[280px] xs:w-[240px] md:w-[280px] xs:h-[50px] md:h-[65px] h-[65px] bg-[#63B1AE] rounded-[60px] font-medium text-white xs:text-[14px] md:text-[18px] text-[18px]">
-              ARIZA QOLDIRISH
+              <a href="#"> ARIZA QOLDIRISH</a>
             </button>
           </div>
         </div>

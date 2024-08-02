@@ -15,10 +15,12 @@ const Navbar = () => {
     <div className=" flex items-center justify-between xs:px-3 xl:px-10 px-10 py-5 2xl:px-10">
       <div className="flex items-end">
         <div className="w-[163px] xs:w-[92px] xs:h-[44px] md:w-[129px] xl:w-[163px] md:h-[60px]">
-          <img
-            src="https://optim.tildacdn.pub/tild6631-6232-4037-a439-663632313035/-/resize/258x/-/format/webp/logo.png"
-            alt="logo"
-          />
+          <a href="#">
+            <img
+              src="https://optim.tildacdn.pub/tild6631-6232-4037-a439-663632313035/-/resize/258x/-/format/webp/logo.png"
+              alt="logo"
+            />
+          </a>
         </div>
       </div>
       <ul className="flex items-center justify-between xl:gap-4 2xl:gap-7 xs:hidden xl:flex">

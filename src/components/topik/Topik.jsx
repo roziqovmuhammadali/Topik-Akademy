@@ -95,7 +95,7 @@ const Topik = () => {
       </div>
       <div className="w-full flex items-center justify-center">
         <button className="w-[322px] xs:w-[240px] md:w-[330px] xs:h-[50px] md:h-[78px] h-[78px] bg-[#63B1AE] rounded-[60px] font-medium text-white xs:text-[16px] md:text-[24px] text-[24px]">
-          HA, BU MEN
+          <a href="#">HA, BU MEN</a>
         </button>
       </div>
     </div>

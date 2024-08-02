@@ -55,7 +55,7 @@ const Header = () => {
         <div className="space-y-10">
           <div className=" flex flex-col items-center justify-center max-w-[330px] space-y-4">
             <button className="w-[322px] xs:w-[240px] md:w-[330px] xs:h-[50px] md:h-[78px] h-[78px] bg-[#63B1AE] rounded-[60px] font-medium text-white xs:text-[16px] md:text-[22px] text-[22px]">
-              BEPUL DARSGA YOZILISH
+              <a href="#">BEPUL DARSGA YOZILISH</a>
             </button>
             <p className="text-[22px] xs:text-[15px] md:text-[22px] font-medium text-[#7F7F7F]">
               Birinchi darsga bepul yoziling!
