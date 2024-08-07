@@ -9,20 +9,22 @@ const Graduates = () => {
           yutishda yordam beramiz
         </h1>
       </div>
-      <div className="flex items-center justify-center">
-        <div className="w-[35%] space-y-12  bg-white rounded-md shadow-right-3xl">
+      <div className="flex items-center justify-center  ">
+        <div className="w-[35%] xs:w-full lg:w-[35%] space-y-12  bg-white rounded-md shadow-right-3xl">
           <h2 className="text-[22px] text-[#000000]">
             <span className="text-[#73C0BD]">TOPIK academy consulting</span>{" "}
             academy consulting jamoasi sizga universitet tanlash, visa olish va
             grant yutishingizda yaqindan ko’maklashadi
           </h2>
           <div className="space-y-4">
-            <p className="text-[#000000] text-[16px] w-[237px]">
+            <p className="text-[#000000] text-[16px] w-[237px] pb-3">
               Ko’proq ma’lumot olish uchun bepul konsultatsiyaga yoziling!
             </p>
-            <button className="w-[280px] xs:w-[240px] md:w-[280px] xs:h-[50px] md:h-[65px] h-[65px] bg-[#63B1AE] rounded-[60px] font-medium text-white xs:text-[14px] md:text-[18px] text-[18px]">
-              <a href="#"> ARIZA QOLDIRISH</a>
-            </button>
+            <a href="#">
+              <button className="w-[280px] xs:w-[240px] md:w-[280px] xs:h-[50px] md:h-[65px] h-[65px] bg-[#63B1AE] rounded-[60px] font-medium text-white xs:text-[14px] md:text-[18px] text-[18px]">
+                ARIZA QOLDIRISH
+              </button>
+            </a>
           </div>
         </div>
         <div className="w-[65%] xs:hidden lg:flex">

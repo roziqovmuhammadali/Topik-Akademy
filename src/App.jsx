@@ -4,11 +4,12 @@ import VideoPlayer from "./components/gksVideo/VideoPlayer";
 import Graduates from "./components/graduates/Graduates";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
+import Register from "./components/register/Register";
 import Topik from "./components/topik/Topik";
 
 export default function App() {
   return (
-    <div className="container mx-auto space-y-14 xs:px-1 sm:px-0">
+    <div className="container mx-auto space-y-14 px-3">
       <Navbar />
       <Header />
       <Topik />
@@ -16,6 +17,7 @@ export default function App() {
       <Gks />
       <VideoPlayer />
       <Graduates />
+      <Register />
     </div>
   );
 }
