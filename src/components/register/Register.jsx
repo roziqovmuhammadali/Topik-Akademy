@@ -7,7 +7,7 @@ const Register = () => {
         </h1>
       </div>
       <div className=" flex-wrap flex items-center justify-around space-y-3">
-        <div className="w-[350px] h-[410px] rounded-2xl bg-[#F7F7F7] p-3">
+        <div className="w-[350px] h-[410px] rounded-[45px] bg-[#F7F7F7] p-3">
           <div className="w-full">
             <img
               src="https://optim.tildacdn.pub/tild3464-3039-4433-b832-663664336461/-/resize/854x/-/format/webp/course1.png"
@@ -17,7 +17,9 @@ const Register = () => {
           </div>
           <div className="space-y-4">
             <div className="w-full flex items-center justify-between">
-              <h4 className="text-[28px] font-medium">Intiensive</h4>
+              <h4 className="text-[28px] font-medium text-[#4B4B4B]">
+                Intiensive
+              </h4>
               <p className="w-36 text-white text-[14px] p-2 text-center font-medium rounded-3xl bg-[#61ABA7]">
                 Davomiyligi: 5 oy
               </p>
@@ -32,12 +34,14 @@ const Register = () => {
                 <button className="w-44 text-white text-[12px] p-3 shadow-lg text-center font-medium rounded-3xl bg-[#61ABA7]">
                   RO’YXATDAN O’TISH
                 </button>
-                <h4 className="text-[17px] font-medium">970.000 so’m /oy</h4>
+                <h4 className="text-[17px] font-medium text-[#6BAAA8]">
+                  970.000 so’m /oy
+                </h4>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-[350px] h-[410px] rounded-2xl bg-[#F7F7F7] p-3">
+        <div className="w-[350px] h-[410px] rounded-[45px] bg-[#F7F7F7] p-3">
           <div className="w-full">
             <img
               src="https://optim.tildacdn.pub/tild6262-3437-4233-b834-613939346431/-/resize/854x/-/format/webp/course2.png"
@@ -47,12 +51,12 @@ const Register = () => {
           </div>
           <div className="space-y-4">
             <div className="w-full flex items-center justify-between">
-              <h4 className="text-[28px] font-medium">Odatiy</h4>
+              <h4 className="text-[28px] font-medium text-[#4B4B4B]">Odatiy</h4>
               <p className="w-36 text-white text-[14px] p-2 text-center font-medium rounded-3xl bg-[#61ABA7]">
                 Davomiyligi: 5 oy
               </p>
             </div>
-            <p className="text-[#444444] w-[70%] text-[14px] font-medium">
+            <p className="text-[#444444] w-[50%] text-[14px] font-medium">
               Haftada 3 kun 1.5 soatdan iborat odatiy Koreys tili darslari.
             </p>
             <div>
@@ -60,12 +64,14 @@ const Register = () => {
                 <button className="w-44 text-white text-[12px] p-3 shadow-lg text-center font-medium rounded-3xl bg-[#61ABA7]">
                   RO’YXATDAN O’TISH
                 </button>
-                <h4 className="text-[17px] font-medium">560.000 so’m /oy</h4>
+                <h4 className="text-[17px] font-medium text-[#6BAAA8]">
+                  560.000 so’m /oy
+                </h4>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-[350px] h-[410px] rounded-2xl bg-[#F7F7F7] p-3">
+        <div className="w-[350px] h-[410px] rounded-[45px] bg-[#F7F7F7] p-3">
           <div className="w-full">
             <img
               src="https://optim.tildacdn.pub/tild6438-3938-4330-a465-613833356366/-/resize/854x/-/format/webp/course3.png"
@@ -75,7 +81,9 @@ const Register = () => {
           </div>
           <div className="space-y-4">
             <div className="w-full flex items-center justify-between">
-              <h4 className="text-[28px] font-medium">Individual</h4>
+              <h4 className="text-[28px] font-medium text-[#4B4B4B]">
+                Individual
+              </h4>
               <p className="w-36 text-white text-[14px] p-2 text-center font-medium rounded-3xl bg-[#61ABA7]">
                 Davomiyligi: 5 oy
               </p>
@@ -90,7 +98,9 @@ const Register = () => {
                 <button className="w-44 text-white text-[12px] p-3 shadow-lg text-center font-medium rounded-3xl bg-[#61ABA7]">
                   RO’YXATDAN O’TISH
                 </button>
-                <h4 className="text-[17px] font-medium">1.800.000 so’m /oy</h4>
+                <h4 className="text-[17px] font-medium text-[#6BAAA8]">
+                  1.800.000 so’m /oy
+                </h4>
               </div>
             </div>
           </div>

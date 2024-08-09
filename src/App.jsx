@@ -1,4 +1,5 @@
 import Serticate from "./components/certificat/Serticate";
+import Connection from "./components/connectio/Connection";
 import Gks from "./components/gks/GKS";
 import VideoPlayer from "./components/gksVideo/VideoPlayer";
 import Graduates from "./components/graduates/Graduates";
@@ -18,6 +19,7 @@ export default function App() {
       <VideoPlayer />
       <Graduates />
       <Register />
+      <Connection />
     </div>
   );
 }
