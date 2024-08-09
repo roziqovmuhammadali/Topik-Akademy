@@ -8,13 +8,6 @@ const Header = () => {
   };
   return (
     <div className="px-10 xs:px-3 md:px-5 xl:px-10" style={divStyle}>
-      <div className="flex items-center gap-3 ">
-        <p className="w-[39px] h-[1px] bg-[#A7DFB1]"></p>
-        <p className="text-[18px] xs:text-[15px] md:text-[18px] text-[#333333]">
-          3 oyda Koreys tilida gapirishni boshlang
-        </p>
-      </div>
-
       <div className="pt-10">
         <div className="space-y-20">
           <div>

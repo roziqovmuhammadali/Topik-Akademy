@@ -1,6 +1,6 @@
 const Register = () => {
   return (
-    <div className="space-y-20">
+    <div className="space-y-20" id="kurs">
       <div className="w-full flex items-center justify-center">
         <h1 className="text-[46px] xs:text-[25px] font-medium md:text-[35px] xl:text-[46px] leading-10 text-center ">
           O’zingizga mos kursga ro’yxatdan o’ting

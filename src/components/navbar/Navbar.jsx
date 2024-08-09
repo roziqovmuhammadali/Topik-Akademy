@@ -1,6 +1,5 @@
-// React icon
-// import { CiMenuFries } from "react-icons/ci";
 import { useState } from "react";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,8 +10,9 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
   return (
-    <div className=" flex items-center justify-between xs:px-3 xl:px-10 px-10 py-5 2xl:px-10">
+    <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 flex items-center justify-between xs:px-3 xl:px-10 px-10 py-5 2xl:px-10">
       <div className="flex items-end">
         <div className="w-[163px] xs:w-[92px] xs:h-[44px] md:w-[129px] xl:w-[163px] md:h-[60px]">
           <a href="#">
@@ -24,21 +24,21 @@ const Navbar = () => {
         </div>
       </div>
       <ul className="flex items-center justify-between xl:gap-4 2xl:gap-7 xs:hidden xl:flex">
-        <li className=" hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
-          <a href="#">Nega biz</a>
+        <li className="hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
+          <a href="#topik">Nega biz</a>
         </li>
-        <li className=" hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
-          <a href="#">Natijalar</a>
+        <li className="hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
+          <a href="#natija">Natijalar</a>
         </li>
-        <li className=" hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
-          <a href="#">Kurslar</a>
+        <li className="hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
+          <a href="#kurs">Kurslar</a>
         </li>
-        <li className=" hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
-          <a href="#">Ko’p beriladigan savollar</a>
+        <li className="hover:font-bold font-medium lg:text-[14px] xl:text-[16px] hover:text-blue-600 hover:underline hover:text-[19px] text-[#333333]">
+          <a href="#savollar">Ko’p beriladigan savollar</a>
         </li>
       </ul>
       <div className="flex items-center gap-7">
-        <select className="w-[100px] h-8 rounded-lg font-bold px-2 bg-slate-100 border-none outline-none text-slate-700  ">
+        <select className="w-[100px] h-8 rounded-lg font-bold px-2 bg-slate-100 border-none outline-none text-slate-700">
           <option value="ru">Russian</option>
           <option value="uz">Uzbek</option>
         </select>
@@ -84,16 +84,16 @@ const Navbar = () => {
             </button>
             <ul className="mt-8 text-[15px] font-medium">
               <li onClick={closeMenu} className="p-4 border-b">
-                <a href="#">Nega biz</a>
+                <a href="#topik">Nega biz</a>
               </li>
               <li onClick={closeMenu} className="p-4 border-b">
-                <a href="#">Natijalar</a>
+                <a href="#natija">Natijalar</a>
               </li>
               <li onClick={closeMenu} className="p-4 border-b">
-                <a href="#">Kurslar</a>
+                <a href="#kurs">Kurslar</a>
               </li>
               <li onClick={closeMenu} className="p-4 border-b">
-                <a href="#">Ko’p beriladigan savollar</a>
+                <a href="#savollar">Ko’p beriladigan savollar</a>
               </li>
             </ul>
           </div>
