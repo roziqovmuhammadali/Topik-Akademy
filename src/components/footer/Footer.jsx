@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-black text-white flex items-center justify-between py-6 text-xl rounded-2xl p-8">
+    <div className=" bg-black text-white flex items-center justify-between py-6 text-xl rounded-2xl p-8">
       <div>
         <img
           src="https://static.tildacdn.info/tild6461-3631-4933-b438-333065383736/logo_horizontal.svg"
